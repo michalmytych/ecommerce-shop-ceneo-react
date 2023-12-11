@@ -7,12 +7,14 @@ import { ReactComponent as UserIcon } from '../../assets/user.svg';
 
 export default function Header() {
     return (
-        <header className='flex justify-between px-2 py-2'>
+        <header className='flex justify-between px-2 py-2 bg-white'>
 
-            <div className='text-orange-600 hover:text-orange-500 transition cursor-pointer'>
+            {/* Do osobnego komponentu */}
+            <div className='text-orange-600 hover:text-orange-500 transition cursor-pointer pl-4'>
                 <LogoIcon />
             </div>
 
+            {/* Do osobnego komponentu */}
             <div className='flex items-center w-1/3'>
                 <input
                     className='p-1.5 border-1 ring-1 ring-inset w-full'
@@ -27,6 +29,7 @@ export default function Header() {
                 </button>
             </div>
 
+            {/* Do osobnego komponentu */}
             <div className='flex items-center gap-6 pr-4'>
                 <div className='hover:scale-125 transition cursor-pointer'>
                     <CartIcon />
