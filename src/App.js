@@ -1,8 +1,9 @@
+import Header from "./components/atoms/Header";
 
 function App() {
   return (
-    <div className="App">
-       Hello world!
+    <div>
+        <Header />
     </div>
   );
 }
