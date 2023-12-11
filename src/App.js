@@ -1,4 +1,4 @@
-import Header from "./components/atoms/Header";
+import Header from "./components/organisms/Header";
 
 function App() {
   return (
