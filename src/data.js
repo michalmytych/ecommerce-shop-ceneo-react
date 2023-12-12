@@ -1,18 +1,19 @@
-    import ExampleIcon  from './components/icons/ExampleIcon';
-    
-    const data = {
+// ikony  
+import { ReactComponent as ExampleIcon } from './assets/example.svg';
+
+const data = {
         banners:
         [
                 {   id: 1,
-                    src: 'https://i.ibb.co/LR9NcTH/1.png',
+                    src: 'https://i.ibb.co/W3czzKR/1.png',
                     alt: 'banner1'
                 },
                 {   id: 2,
-                    src: 'https://i.ibb.co/LR9NcTH/2.png',
+                    src: 'https://i.ibb.co/6Zb0fmp/2.png',
                     alt: 'banner2'
                 },
                 {   id: 3,
-                    src: 'https://i.ibb.co/LR9NcTH/3.png',
+                    src: 'https://i.ibb.co/fNbxfhc/3.png',
                     alt: 'banner3'
                 }  
             ],
@@ -101,7 +102,7 @@
                 description: "Kubek z nadrukiem",
                 price: 19.99,
                 category: "Dom i wnętrze",
-                image: "https://cdn.shopify.com/s/files/1/0558/2081/products/white-mug_1024x1024.png?v=1571438992"
+                image: "https://i.ibb.co/JsMk12N/kubek.png"
             },
             {
                 id: 2,
@@ -109,7 +110,7 @@
                 description: "Kubek z nadrukiem",
                 price: 19.99,
                 category: "Dom i wnętrze",
-                image: "https://cdn.shopify.com/s/files/1/0558/2081/products/white-mug_1024x1024.png?v=1571438992"
+                image: "https://i.ibb.co/JsMk12N/kubek.png"
             },
             {
                 id: 3,
@@ -117,7 +118,7 @@
                 description: "Kubek z nadrukiem",
                 price: 19.99,
                 category: "Dom i wnętrze",
-                image: "https://cdn.shopify.com/s/files/1/0558/2081/products/white-mug_1024x1024.png?v=1571438992"
+                image: "https://i.ibb.co/JsMk12N/kubek.png"
             },
             {
                 id: 4,
@@ -125,7 +126,7 @@
                 description: "Kubek z nadrukiem",
                 price: 19.99,
                 category: "Dom i wnętrze",
-                image: "https://cdn.shopify.com/s/files/1/0558/2081/products/white-mug_1024x1024.png?v=1571438992"
+                image: "https://i.ibb.co/JsMk12N/kubek.png"
             },
             {
                 id: 5,
@@ -133,15 +134,7 @@
                 description: "Kubek z nadrukiem",
                 price: 19.99,
                 category: "Dom i wnętrze",
-                image: "https://cdn.shopify.com/s/files/1/0558/2081/products/white-mug_1024x1024.png?v=1571438992"
-            },
-            {
-                id: 6,
-                name: "Kubek",
-                description: "Kubek z nadrukiem",
-                price: 19.99,
-                category: "Dom i wnętrze",
-                image: "https://cdn.shopify.com/s/files/1/0558/2081/products/white-mug_1024x1024.png?v=1571438992"
+                image: "https://i.ibb.co/JsMk12N/kubek.png"
             }
         ]
     };

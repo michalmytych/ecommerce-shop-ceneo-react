@@ -1,7 +1,6 @@
 import { data } from '../../data';
 
 export default function Categories(){
-    console.log(data.categories)
     return (
         <div className="bg-white pl-5 pr-5 py-5 w-[300px]">
             <div className="flex flex-row space-x-12 items-center">

@@ -1,27 +1,49 @@
-import React from 'react';
-import Header from '../components/organisms/Header';
-import Categories from '../components/organisms/Categories';
-import Banner from '../components/organisms/Banner';
-import { data } from '../data';
-import Slider from '../components/organisms/Slider';
+import React from "react";
+// dane
+import { data } from "../data";
+// Komponenty
+import Header from "../components/organisms/Header";
+import Categories from "../components/organisms/Categories";
+import Banner from "../components/atoms/Banner";
+import Slider from "../components/organisms/Slider";
+import Products from "../components/organisms/Products";
+import SmallBannersContainer from "../components/molecules/SmallBannersContainer";
+import Billboard from "../components/molecules/Billboard";
+import CategoriesCard from "../components/molecules/CategoriesCard";
+import Content from "../components/molecules/Content";
+import Layout from "../components/molecules/Layout";
 
 export default function Home() {
-  console.log(data);
   return (
+    // Background
     <div className="bg-gray-100">
-        <Header />
-        <div className="flex flex-col md:flex-row space-x-2 px-8 md:px-24 py-12">
-            <Categories />
-            <div className='grid grid-cols-2 grid-flow-col gap-4'>
-               <Slider className="row-span-3">
-                <Banner src={data.banners[0].src} />
-               </Slider>
-               <div className='flex flex-col space-y-2'>
-                 <Banner className="col-span-2" src={data.banners[1].src} />
-                 <Banner className="row-span-2 col-span-2" src={data.banners[2].src} />
-               </div>
-            </div>
-        </div>
+      <Header />
+      {/* Pojemnik zawartości */}
+      <Layout>
+        {/* Pojemnik na kategorie */}
+        <CategoriesCard>
+          <Categories />
+        </CategoriesCard>
+        {/* Pojemnik na kategorie -> Koniec */}
+        {/* Pojemnik na slider i banery oraz produkty */}
+        <Content>
+          {/* Pojemnik na slider i banery */}
+          <Billboard>
+            <Slider />
+            {/* Pojemnik na 2 mniejsze banery */}
+            <SmallBannersContainer>
+              <Banner src={data.banners[1].src} />
+              <Banner src={data.banners[2].src} />
+            </SmallBannersContainer>
+            {/* Pojemnik na 2 mniejsze banery -> Koniec */}
+          </Billboard>
+          {/* Pojemnik na slider i banery -> Koniec */}
+          <Products />
+        </Content>
+        {/* Pojemnik na slider i banery oraz produkty -> Koniec */}
+        </Layout>
+      {/* Pojemnik zawartości -> Koniec */}
     </div>
+    // Background -> Koniec
   );
 }
