@@ -4,8 +4,8 @@ import Product from "../atoms/Product";
 export default function Products() {
   const products = data.products;
   return (
-    <div className="w-full md:w-5/6">
-      <div className="flex flex-col space-y-1 items-center md:flex-row md:space-y-0 md:space-x-0">
+    <div className="md:w-5/6 overflow-x-auto">
+      <div className="inline-flex md:flex items-center flex-row space-x-0">
         {products.map((product) => (
           <Product
             key={product.id}

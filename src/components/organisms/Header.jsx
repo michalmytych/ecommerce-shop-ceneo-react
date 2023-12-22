@@ -22,7 +22,7 @@ export default function Header() {
       {/* Mobilne menu kategorii */}
       <div
         className={
-          isHidden ? "sm:hidden transtion-all" : "md:hidden transition-all"
+          isHidden ? "hidden transtion-all" : "md:hidden transition-all"
         }
       >
         <div className="absolute z-10 top-14 left-0">

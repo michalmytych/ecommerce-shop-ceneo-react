@@ -12,11 +12,12 @@ import Billboard from "../components/molecules/Billboard";
 import CategoriesCard from "../components/molecules/CategoriesCard";
 import Content from "../components/molecules/Content";
 import Layout from "../components/molecules/Layout";
+import MobileCategories from "../components/organisms/MobileCategories";
 
 export default function Home() {
   return (
     // Background
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 overflow-x-hidden">
       <Header />
       {/* Pojemnik zawartości */}
       <Layout>
@@ -38,7 +39,8 @@ export default function Home() {
             {/* Pojemnik na 2 mniejsze banery -> Koniec */}
           </Billboard>
           {/* Pojemnik na slider i banery -> Koniec */}
-          <Products />
+          <MobileCategories />
+          <Products /> 
         </Content>
         {/* Pojemnik na slider i banery oraz produkty -> Koniec */}
         </Layout>

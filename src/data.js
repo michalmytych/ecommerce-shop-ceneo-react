@@ -21,77 +21,107 @@ const data = {
         [
             {   id: 1,
                 name: "Biuro i Firma",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-yellow-500",
+                link: "localhost:3000"
             },
             {
                 id: 2,
                 name: "Budowa i remont",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-purple-500",
+                link: "localhost:3000"
             },
             {
                 id: 3,
                 name: "Dla dziecka",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-blue-500",
+                link: "localhost:3000"
             },
             {
                 id: 4,
                 name: "Dom i wnętrze",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-[#00838F]",
+                link: "localhost:3000"
             },
             {
                 id: 5,
                 name: "Elektronika",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-purple-500",
+                link: "localhost:3000"
             },
             {
                 id: 6,
                 name: "Firma",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-green-400",
+                link: "localhost:3000"
             },
             {
                 id: 7,
                 name: "Kolekcje i sztuka",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-yellow-700",
+                link: "localhost:3000"
             },
             {
                 id: 8,
                 name: "Kultura i rozrywka",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-pink-500",
+                link: "localhost:3000"
             },
             {
                 id: 9,
                 name: "Moda",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-blue-500",
+                link: "localhost:3000"
             },
             {
                 id: 10,
                 name: "Motoryzacja",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-green-500",
+                link: "localhost:3000"
             },
             {
                 id: 11,
                 name: "Nieruchomości",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-pink-600",
+                link: "localhost:3000"
             },
             {
                 id: 12,
                 name: "Ogród",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-green-600",
+                link: "localhost:3000"
             },
             {
                 id: 13,
                 name: "Sport i hobby",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-yellow-500",
+                link: "localhost:3000"
             },
             {
                 id: 14,
                 name: "Uroda",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-orange-500",
+                link: "localhost:3000"
             },
             {
                 id: 15,
                 name: "Zwierzęta",
-                icon: <ExampleIcon />
+                icon: <ExampleIcon />,
+                color: "bg-purple-500",
+                link: "localhost:3000"
             }
         ],
         products:
